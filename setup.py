@@ -33,7 +33,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    description="A CLI for scrapping plaintext secrets from config files.",
     entry_points={
         'console_scripts': [
             'oslo_config_scrapper=oslo_config_scrapper.cli:main',
