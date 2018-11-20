@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/moisesguimaraes/oslo_config_scrapper/issues.
+Report bugs at https://github.com/moisesguimaraes/oslo.config.scrapper/issues.
 
 If you are reporting a bug, please include:
 
@@ -45,7 +45,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/moisesguimaraes/oslo_config_scrapper/issues.
+The best way to send feedback is to file an issue at https://github.com/moisesguimaraes/oslo.config.scrapper/issues.
 
 If you are proposing a feature:
 
@@ -57,17 +57,17 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `oslo_config_scrapper` for local development.
+Ready to contribute? Here's how to set up `oslo.config.scrapper` for local development.
 
-1. Fork the `oslo_config_scrapper` repo on GitHub.
+1. Fork the `oslo.config.scrapper` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/oslo_config_scrapper.git
+    $ git clone git@github.com:your_name_here/oslo.config.scrapper.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv oslo_config_scrapper
-    $ cd oslo_config_scrapper/
+    $ mkvirtualenv oslo.config.scrapper
+    $ cd oslo.config.scrapper/
     $ python setup.py develop
 
 4. Create a branch for local development::
@@ -80,7 +80,7 @@ Ready to contribute? Here's how to set up `oslo_config_scrapper` for local devel
    tests, including testing other Python versions with tox::
 
     $ flake8 oslo_config_scrapper tests
-    $ python setup.py test or py.test
+    $ python setup.py test or pytest
     $ tox
 
    To get flake8 and tox, just pip install them into your virtualenv.
@@ -103,7 +103,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy. Check
-   https://travis-ci.org/moisesguimaraes/oslo_config_scrapper/pull_requests
+   https://travis-ci.org/moisesguimaraes/oslo.config.scrapper/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips
@@ -111,7 +111,7 @@ Tips
 
 To run a subset of tests::
 
-$ py.test tests.test_oslo_config_scrapper
+$ pytest tests.test_oslo_config_scrapper
 
 
 Deploying

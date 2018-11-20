@@ -12,7 +12,7 @@ To install Oslo Config Scrapper, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install oslo_config_scrapper
+    $ pip install oslo.config.scrapper
 
 This is the preferred method to install Oslo Config Scrapper, as it will always install the most recent stable release.
 
@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/moisesguimaraes/oslo_config_scrapper
+    $ git clone git://github.com/moisesguimaraes/oslo.config.scrapper
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/moisesguimaraes/oslo_config_scrapper/tarball/master
+    $ curl  -OL https://github.com/moisesguimaraes/oslo.config.scrapper/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/moisesguimaraes/oslo_config_scrapper
-.. _tarball: https://github.com/moisesguimaraes/oslo_config_scrapper/tarball/master
+.. _Github repo: https://github.com/moisesguimaraes/oslo.config.scrapper
+.. _tarball: https://github.com/moisesguimaraes/oslo.config.scrapper/tarball/master

@@ -25,5 +25,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: moisesguimaraes/oslo_config_scrapper
+    repo: moisesguimaraes/oslo.config.scrapper
     python: 3.6

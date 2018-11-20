@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `oslo_config_scrapper` package."""
+"""Tests for `oslo.config.scrapper` package."""
 
 import pytest
 
